@@ -23,7 +23,7 @@ ul li {
         text-decoration: none;
         color: #ffffff;
 
-        &:hover{
+        &:hover {
             color: #f57009;
         }
 
@@ -131,7 +131,7 @@ div input {
 }
 
 
-.arrowbtn{ 
+.arrowbtn {
     border-radius: 100%;
     border: transparent;
     width: 42px;
@@ -140,13 +140,13 @@ div input {
     align-items: center;
     justify-content: center;
 
-    &.right{
+    &.right {
         color: #000;
         background-color: rgb(242, 236, 236);
-    
+
     }
 
-    &.left{
+    &.left {
         background-color: #000;
         color: white;
     }
@@ -154,11 +154,15 @@ div input {
 }
 
 
-.card-title{
+.card-title {
     font-size: 2.5rem;
     color: black;
-   
-    
+
+    &.price {
+        font-size: 1.5rem;
+    }
+
+
 }
 
 // .image{
@@ -171,38 +175,51 @@ div input {
 //     background-repeat: no-repeat;
 // }
 
-.card-img-top{
+.card-img-top {
     object-fit: cover;
     height: 300px;
     width: 250px;
 }
 
-.hr{
+.hr {
     width: 20%;
-    display:inline-block ;
-    translate:30%;
+    display: inline-block;
+    translate: 30%;
     border-radius: 10%;
     opacity: 100%;
     border-top: 2px solid #f57009;
-    
-    
+
+
 }
-.active{
+
+.active {
     color: #f57009;
 }
 
 
-.card-text{
+.card-text {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 
 }
 
-.card-text-dot{
+.card-text-dot {
     height: 5px;
     width: 5px;
-    background-color:#f57009;
+    background-color: #f57009;
     border-radius: 50%;
     display: inline-block;
     margin: 0px 0.5rem;
+}
+
+.subhead-p {
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+.salebtn {
+    border: none;
+    border-radius: 1.2rem;
+    color: #f57009;
+    font-size: 0.8rem;
 }
