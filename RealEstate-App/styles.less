@@ -7,13 +7,18 @@
 //     display: inline-flex;
 
 // }
+
+.center-part{
+    font-size: 1.5rem;
+}
+
 .body {
     background-color: rgb(242, 236, 236);
-    font-family:'Poppins' ;
+    font-family:'Poppins' !important;
 }
 
 div strong {
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
 }
@@ -23,15 +28,18 @@ div strong {
     & svg{
         color: white;
         fill: #f57009;
+        scale: 120%;
+        margin-bottom: 7%;
     }
 }
 ul li {
     display: inline-block;
-    margin: 0 0.5rem;
+    margin: 0 1.5rem;
 
     a {
         text-decoration: none;
         color: #ffffff;
+        font-size: 1.3rem;
 
         &:hover {
             color: #f57009;
@@ -42,6 +50,7 @@ ul li {
 
 .Buttons {
     font-family: 'Poppins', sans-serif;
+    
 
 
 
@@ -51,6 +60,7 @@ ul li {
         font-size: 18px;
         background-color: Transparent;
         border: none;
+        font-weight: 500;
     }
 
     .signup {
@@ -59,6 +69,7 @@ ul li {
         border-radius: 35px;
         padding: 10px 40px;
         font-size: 18px;
+        font-weight: 400;
     }
 
 }
@@ -74,8 +85,9 @@ ul li {
     margin-top: 2%;
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 80%;
     top: 10px;
+    left: 14rem;
 
 
 
@@ -98,12 +110,17 @@ ul li {
 // .welcome-img {}
 
 .searchbar {
+
+    & label{
+        font-weight: 600;
+        font-family: Poppins;
+    }
     background-color: white;
     border: 1px solid white;
     border-radius: 0.5rem;
     position: absolute;
-    top: 770px;
-    left: 300px;
+    top: 80%;
+    left: 15%;
 
     z-index: 1;
     filter: drop-shadow(0px 0px 9px #000);
@@ -126,17 +143,18 @@ div input {
     position: absolute;
     text-decoration: none;
     border: #f57009 1px solid;
-    padding: 15px 30px;
+    padding: 15px 40px;
     text-align: center;
     color: #ffffff;
     background-color: #f57009;
-    border-radius: 30px;
-    left: 1180px;
+    border-radius: 1.8rem;
+    left: 1150px;
     bottom: 25px;
 
 
     &:hover {
-        color: black;
+        color: #f57009;
+        background-color: #ffffff;
     }
 }
 
