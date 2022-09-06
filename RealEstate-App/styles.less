@@ -153,12 +153,26 @@ div input {
     &.right {
         color: #000;
         background-color: rgb(242, 236, 236);
+        &:hover{
+            background-color: #000;
+            color: rgb(242, 236, 236);
+        }
 
     }
 
     &.left {
         background-color: #000;
         color: white;
+    }
+
+    &.right-orng{
+        color: #ffffff;
+        background-color: #f57009;
+
+        &:hover{
+            color: #f57009;
+            background-color: #ffffff;
+        }
     }
 
 }
@@ -176,6 +190,25 @@ div input {
     }
 
 
+}
+
+.text-on-img-div{
+    position: relative;
+
+    
+}
+.inside-pic{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    color: #ffffff;
+
+    & h1{
+        font-size: 1.5rem;
+    }
+    
+    
 }
 
 // .image{
@@ -481,6 +514,20 @@ border-radius: 0 0 5% 5% ;
         border: #f57009 solid 2px;
     }
 }
+
+.inline-hr{
+    display: inline-block;
+    width: 70%;
+    margin-top: 35%;
+    
+}
+
+.divider {
+    display: inline-block;
+    border-bottom: rgb(0, 0, 0) 1px solid;
+    width: 100px;
+    
+  }
 
 .img-aside{
     font-family: Poppins;
