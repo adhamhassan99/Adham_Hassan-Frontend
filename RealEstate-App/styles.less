@@ -303,12 +303,40 @@ div input {
     font-size: 0.75rem;
     
 }
+
+.rel-img-div{
+position: relative;
+}
+
+
+
+
 .details-btn{
-    color: white;
-    background-color: #f57009;
+    color: rgb(0, 0, 0);
+    background-color: white;
     border-radius: 1.25rem;
     padding: 7px 12px;
     text-decoration: none;
+    border: 1px solid lightgray;
+
+    &.selected{
+        color: #ffffff;
+        background-color: #f57009;
+
+        &.abs{
+            position: absolute;
+            right: 5%;
+            top: 5%;
+            border: none;
+            padding: 2px 10px;
+
+            &:hover{
+                color: #ffffff;
+            background-color: #f57009;
+            }
+
+        }
+    }
 
     &:hover{
         background-color: white;
